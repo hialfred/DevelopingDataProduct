@@ -1,4 +1,4 @@
-Relationship between variables and MPG
+'mtcars' relationship between variables and MPG - shiny scatterplot
 ========================================================
 author: Red Chan
 date: 
