@@ -1,0 +1,55 @@
+Relationship between variables and MPG
+========================================================
+author: Red Chan
+date: 
+autosize: true
+
+About the App
+========================================================
+# Introduction:
+
+Dataset 'mtcars' : The data was extracted from the 1974 Motor Trend US magazine and comprises fuel consumption and 10 aspects of automobile design and performance for 32 automobiles (1973-74 models). The purpose of the app is to look at how each of the covariates in mtcars relate to miles per gallon (mpg) and to perform univariate regression against mpg.
+
+# Task 1 - Deploy App
+
+- https://hialfred.shinyapps.io/shiny/ 
+- https://github.com/hialfred/DevelopingDataProduct
+
+# Task 2 - Reproducible Pitch Presentation
+- https://github.com/hialfred/DevelopingDataProduct/pitch presentation/
+
+
+Dataset Description
+========================================================
+
+# Motor Trend Car Road Tests
+
+Dataset 'mtcars' : The data was extracted from the 1974 Motor Trend US magazine and comprises fuel consumption and 10 aspects of automobile design and performance for 32 automobiles (1973-74 models).
+
+# Source
+
+Henderson and Velleman (1981), Building multiple regression models interactively. Biometrics, 37, 391-411.
+
+```{r, echo = FALSE}
+library(datasets)
+str(mtcars)
+```
+
+# Variables
+========================================================
+
+A data frame with 32 observations on 11 variables.
+
+| column | name | type | detail |
+| --- | --- |  --- |  --- |  --- |
+| [, 1] | mpg | numeric | Miles/(US) gallon |
+| [, 2] | cyl | categorical | Number of cylinders |
+| [, 3] | disp | numeric | Displacement (cu.in.) |
+| [, 4] | hp | numeric | Gross horsepower |
+| [, 5] | drat | numeric | Rear axle ratio |
+| [, 6] | wt | numeric | Weight (lb/1000) |
+| [, 7] | qsec | numeric | 1/4 mile time |
+| [, 8] | vs | categorical | V/S |
+| [, 9] | am | categorical | Transmission (0 = automatic, 1 = manual) |
+| [,10] | gear | categorical | Number of forward gears |
+| [,11] | carb | categorical | Number of carburetors |
