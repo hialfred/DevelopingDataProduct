@@ -1,6 +1,6 @@
 # Coursera Developing Data Product 
 
-## Tasks
+#### Tasks
 1. Write a shiny application with associated supporting documentation. The documentation should be thought of as whatever a user will need to get started using your application.
 2. Deploy the application on Rstudio's shiny server
 3. Share the application link by pasting it into the text box below
@@ -8,7 +8,7 @@
 
 ---
 
-## The application must include the following:
+#### The application must include the following:
 1. Some form of input (widget: textbox, radio button, checkbox, ...) 
 2. Some operation on the ui input in sever.R 
 3. Some reactive output displayed as a result of server calculations 
