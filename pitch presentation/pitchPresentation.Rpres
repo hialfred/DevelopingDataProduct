@@ -1,32 +1,28 @@
-'mtcars' relationship between variables and MPG - shiny scatterplot
+shiny scatterplot - 'mtcars' relationship between vars and MPG
 ========================================================
 author: Red Chan
 date: 
-autosize: true
+width: 1440
+height: 900
 
 About the App
 ========================================================
-# Introduction:
 
-Dataset 'mtcars' : The data was extracted from the 1974 Motor Trend US magazine and comprises fuel consumption and 10 aspects of automobile design and performance for 32 automobiles (1973-74 models). The purpose of the app is to look at how each of the covariates in mtcars relate to miles per gallon (mpg) and to perform univariate regression against mpg.
-
-# Task 1 - Deploy App
+### Task 1 - Deploy App
 
 - https://hialfred.shinyapps.io/shiny/ 
 - https://github.com/hialfred/DevelopingDataProduct
 
-# Task 2 - Reproducible Pitch Presentation
-- https://github.com/hialfred/DevelopingDataProduct/pitch presentation/
+### Task 2 - Pitch Presentation
+- http://rpubs.com/hialfred/DevelopingDataProduct
+- https://github.com/hialfred/DevelopingDataProduct/tree/master/pitch presentation
 
-
-Dataset Description
+Motor Trend Car Road Tests
 ========================================================
-
-# Motor Trend Car Road Tests
 
 Dataset 'mtcars' : The data was extracted from the 1974 Motor Trend US magazine and comprises fuel consumption and 10 aspects of automobile design and performance for 32 automobiles (1973-74 models).
 
-# Source
+#### Source
 
 Henderson and Velleman (1981), Building multiple regression models interactively. Biometrics, 37, 391-411.
 
@@ -35,7 +31,7 @@ library(datasets)
 str(mtcars)
 ```
 
-# Variables
+Variables
 ========================================================
 
 A data frame with 32 observations on 11 variables.
